@@ -1,6 +1,6 @@
 # bad-server
 
-An express middleware that will ruin your express server's performance.
+A middleware that will ruin your express server's performance.
 
 ## Why would you want this?
 
