@@ -4,7 +4,7 @@ A middleware that will ruin your express server's performance.
 
 ## Why would you want this?
 
-Developers often forget to account for API errors when building applications. Sometimes there might be networksissues, sometimes the server might be unreachable for some reason. This libary will help you build applications that are resilient to such situations by forcing you to handle them in development.
+Developers often forget to account for API errors when building applications. Sometimes there might be network issues, sometimes the server might be unreachable for some reason. This libary will help you build applications that are resilient to such situations by forcing you to handle them in development.
 
 ## Installation
 
