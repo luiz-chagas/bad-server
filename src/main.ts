@@ -3,7 +3,7 @@ import { Request, Response } from "express";
 interface Options {
   delay?: number;
   maxDelay?: number;
-  failRate: number;
+  failRate?: number;
 }
 
 export const badServer = ({
