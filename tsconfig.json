@@ -7,7 +7,8 @@
     "module": "commonjs",
     "strict": true,
     "declaration": true,
-    "inlineSources": true
+    "inlineSources": true,
+    "esModuleInterop": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

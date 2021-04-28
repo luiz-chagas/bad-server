@@ -1,7 +1,7 @@
 {
   "name": "bad-server",
-  "version": "0.2.3",
-  "description": "A middleware that will ruin your express server's performance. For development purposes only.",
+  "version": "0.3.0",
+  "description": "A middleware that will degrade your express server's performance. For development purposes only.",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "files": [
@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "build": "rimraf dist && tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "dev": "ts-node-dev --respawn playground.ts"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,8 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.2.0",
     "eslint-plugin-import": "^2.22.1",
+    "express": "^4.17.1",
+    "ts-node-dev": "^1.1.6",
     "typescript": "^4.2.4"
   },
   "dependencies": {}

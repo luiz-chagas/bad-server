@@ -14,5 +14,13 @@ module.exports = {
     "import/prefer-default-export": "off",
     "import/no-unresolved": "off",
     "consistent-return": "off",
+    "no-console": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        devDependencies: true,
+      },
+    ],
   },
 };
